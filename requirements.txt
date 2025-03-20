@@ -2,3 +2,4 @@ flask
 gunicorn
 rasa[full]
 requests
+os
