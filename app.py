@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import requests
 import os
 
-RASA_API_URL = os.getenv("RASA_API_URL", "https://rasa-bot.onrender.com/webhooks/rest/webhook")
+RASA_API_URL = os.getenv("RASA_API_URL", "https://rasa-reporasa-run-enable-api-port-5005.onrender.com")
 app = Flask(__name__)
 
 @app.route('/')
